@@ -1,0 +1,13 @@
+Step 1:
+Use javac *.java to compile all java files
+Step 2:
+Use java Wiki to execute the program
+Step 3:
+Use train dt/ds 10/20/30 to complete the process of training
+(dt is decision tree, ds is decision stump, 10/20/30 stands for the number of words of training file)
+(Example: train dt 50)
+Step 4:
+Use predict fileName.txt to make a decision about the type of language in the txt file 
+(Example: predict test.txt)
+
+(You can use train dt 10/20/50 and train ds 10/20/50 alternately to change the model)
